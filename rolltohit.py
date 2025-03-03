@@ -6,6 +6,7 @@
 #Video Link: https://youtu.be/89G5DN0-O3k
 
 import random
+random.seed()
 
 def roll_dice(num_dice, target):
     rolls = [random.randint(1, 6) for _ in range(num_dice)]
